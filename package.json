@@ -1,0 +1,23 @@
+{
+  "name": "jr-weather-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaodi17/jr-weather-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaodi17/jr-weather-api-server/issues"
+  },
+  "homepage": "https://github.com/xiaodi17/jr-weather-api-server#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
