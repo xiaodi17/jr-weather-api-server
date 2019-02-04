@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/xiaodi17/jr-weather-api-server#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
