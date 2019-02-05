@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/xiaodi17/jr-weather-api-server#readme",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
