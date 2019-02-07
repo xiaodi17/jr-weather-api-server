@@ -7,8 +7,9 @@ const APPID = process.env.APPID;
 router.get("/:cc/:city", (req, res) => {
   // res.send('weather');
   const { cc, city } = req.params;
+  const weatherType = req.query.weatherType;
   weather
-    .getData(city, cc)
+    .getData(city, cc, weatherType)
     .then(response => {
       res.send(response);
     })
