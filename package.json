@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production",
     "dev": "nodemon src/index.js"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "express": "^4.16.4",
     "helmet": "^3.15.0",
     "morgan": "^1.9.1",
+    "pm2": "^3.2.9",
     "winston": "^3.2.1"
   },
   "devDependencies": {
