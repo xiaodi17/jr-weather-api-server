@@ -3,7 +3,7 @@ const path = require("path");
 const env = process.env.NODE_ENV;
 
 const logger = createLogger({
-  level: env === "production" ? "info" : "debug", //if env is production use info mode, otherwise debug mode
+  level: env === "production" ? "info" : "debug", //if env is production use info or above, otherwise debug or above
   format: format.combine(
     format.colorize(),
     format.label({ label: path.basename(module.parent.filename) }),
